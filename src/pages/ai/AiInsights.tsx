@@ -80,7 +80,7 @@ const AiInsights = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background to-secondary/30 p-4 md:p-8">
       <div className="max-w-4xl mx-auto">
-        <BackButton to="/pod/dashboard" />
+        <BackButton dashboardPath="/pod/dashboard" />
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
